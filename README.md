@@ -9,7 +9,7 @@ Harry Potter Wallpapers collection by Void Soul Itself
 ## Installation
 
 ```
-wget -qO- https://raw.githubusercontent.com/void00r/HarryPotterArtsPaper/void/install.sh | sh
+curl -LO https://raw.githubusercontent.com/void00r/HarryPotterArtsPaper/void/install.sh | sh
 ```
 
 ## License
