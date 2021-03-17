@@ -3,10 +3,11 @@
 install() {
 	echo "Installing..."
 	cd /tmp
+	mkdir -p /usr/share/backgrounds/HarryPotterArtsPaper
 	curl -LO https://raw.githubusercontent.com/void00r/HarryPotterArtsPaper/void/HarryPotterArtsPaper.tar.gz
-	tar -xf HarryPotterArtsPaper.tar.gz -C /usr/share/backgrounds/
+	tar -xf HarryPotterArtsPaper.tar.gz -C /usr/share/backgrounds/HarryPotterArtsPaper
 	rm -f HarryPotterArtsPaper.tar.gz
-	echo "Done!"
+	echo "Done! See Wallpapers at /usr/share/backgrounds/HarryPotterArtsPaper"
 }
 
 remove() {
